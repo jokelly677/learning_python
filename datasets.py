@@ -10,6 +10,7 @@ df = pd.read_excel("college_basketball_data.xlsx")
 print(df) 
 
 
+
 #  I am filtering the dataset to 5 var - team, games won, 2 pt pct, 3 pt pct, postseason
 selected_columns = ['TEAM', 'W', '2P_O', '3P_O', 'POSTSEASON', 'YEAR']
 subset_df = df[selected_columns]
